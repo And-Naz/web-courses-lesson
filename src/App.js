@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+import someData from "./someData.json"
 
 function App() {
   useEffect(() => {
     alert('barev bolorin/dzez')
+    console.log(someData)
   }, [])
   return (
     <div className="App">
