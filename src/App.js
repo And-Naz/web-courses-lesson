@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    alert('barev bolorin')
+    alert('barev bolorin/dzez')
   }, [])
   return (
     <div className="App">
